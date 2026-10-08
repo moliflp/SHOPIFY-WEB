@@ -1,0 +1,19 @@
+{%- comment -%} Catálogo desde Shopify. Categoría = "Tipo de producto": Audio, Carga, Hogar, Gaming, Coche. {%- endcomment -%}
+<script>
+window.TCN_PRODUCTOS=[
+{%- for p in collections.all.products limit: 250 -%}
+{%- assign cat = 0 -%}
+{%- case p.type | downcase -%}
+{%- when 'audio' -%}{%- assign cat = 1 -%}
+{%- when 'carga' -%}{%- assign cat = 2 -%}
+{%- when 'hogar' -%}{%- assign cat = 3 -%}
+{%- when 'gaming' -%}{%- assign cat = 4 -%}
+{%- when 'coche' -%}{%- assign cat = 5 -%}
+{%- endcase -%}
+{%- if cat > 0 and p.available -%}
+{%- assign v = p.selected_or_first_available_variant -%}
+{cat:{{ cat }},nombre:{{ p.title | json }},precio:{{ v.price | divided_by: 100.0 }},anterior:{% if v.compare_at_price > v.price %}{{ v.compare_at_price | divided_by: 100.0 }}{% else %}null{% endif %},vid:{{ v.id }},handle:{{ p.handle | json }},img:{% if p.featured_image %}{{ p.featured_image | image_url: width: 900 | json }}{% else %}""{% endif %}},
+{%- endif -%}
+{%- endfor -%}
+];
+</script>
