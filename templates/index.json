@@ -1,5 +1,11 @@
 {
-  "layout": "tecunelo",
-  "sections": {},
-  "order": []
+  "sections": {
+    "home": {
+      "type": "tecunelo-home",
+      "settings": {}
+    }
+  },
+  "order": [
+    "home"
+  ]
 }
