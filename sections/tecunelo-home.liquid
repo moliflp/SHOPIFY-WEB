@@ -1,0 +1,250 @@
+{% render 'tecunelo-data' %}
+{% raw %}
+<!-- ####### CARGA ####### -->
+<div id="ld" role="status"><span id="ldn">0</span><b>%</b> TECUNELO</div>
+
+<!-- ####### FONDO 3D Y CURSOR ####### -->
+<div id="au" aria-hidden="true"><i></i><i></i><i></i></div>
+<canvas id="gl" aria-hidden="true"></canvas><i id="dot"></i><i id="ring"></i>
+
+<!-- ####### PROMO ####### -->
+<div id="promo" role="status">Oferta de lanzamiento: <b id="cd"></b></div>
+
+<!-- ####### CABECERA ####### -->
+<header><div class="lh"><button class="hb" id="hb" type="button" aria-label="Abrir menú del catálogo"><i></i><i></i><i></i></button><a class="logo" href="#">TECUNELO</a></div><nav><a href="#top">Catálogo</a><a href="#info">Cómo funciona</a><a href="#news">Novedades</a></nav><button id="cart" class="mag" type="button" aria-label="Abrir carrito"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h12l-1 12H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span class="cl2">Carrito</span><b id="cn">0</b></button></header>
+
+<!-- ####### MENÚ DEL CATÁLOGO ####### -->
+<div class="ov" id="ov"></div>
+<div class="ts" id="ts" role="status"></div>
+<aside class="dr l" id="mn" aria-hidden="true" aria-label="Menú del catálogo"><div class="dh"><h2 class="disp">Catálogo</h2><button class="x" type="button" aria-label="Cerrar menú">✕</button></div><div id="ml"></div><div class="ml"><a href="#info">Cómo funciona</a><a href="#news">Novedades</a></div></aside>
+
+<!-- ####### CARRITO ####### -->
+<aside class="dr r" id="cp" aria-hidden="true" aria-label="Carrito"><div class="dh"><h2 class="disp">Tu carrito</h2><button class="x" type="button" aria-label="Cerrar carrito">✕</button></div>
+<div class="fs" id="fs"><p id="fst"></p><div class="bar"><i id="fsb"></i></div></div>
+<div id="cl"></div>
+<div class="sg" id="sg"></div>
+<button class="lk" id="cdt" type="button" aria-expanded="false">¿Tienes un código de descuento?</button>
+<div class="cd" id="cdb"><input id="cod" type="text" placeholder="Código de descuento" autocomplete="off" aria-label="Código de descuento"><button class="btn g" id="apl" type="button">Aplicar</button></div>
+<button class="chip" id="chip" type="button"></button>
+<p class="cmsg" id="cmsg" aria-live="polite"></p>
+<div class="rs" id="rs"></div>
+<div class="tot"><span>Total</span><span id="ct">0,00 €</span></div>
+<p class="nt">Total final visible antes de pagar. [CONFIRMAR GASTOS DE ENVÍO]</p><button class="btn" id="pagar" type="button" disabled>Finalizar compra</button><ul class="pay" aria-label="Métodos de pago"></ul></aside>
+<main>
+<!-- ####### PORTADA ####### -->
+<section class="hero">
+<h1 class="disp" id="h1"><span id="h1t">Tecnología</span><em id="w">que conecta contigo</em></h1>
+<p class="cp">Accesorios para conectar mejor con tu día a día.</p>
+<!-- ####### SELECTOR DE CATEGORÍAS ####### -->
+<div id="c" role="group" aria-label="Elegir categoría">
+<div class="gl tk"></div><div class="gl cp2"></div>
+<div class="cells">
+<div class="cell lb" id="lbl">Categoría →</div>
+<button class="cell" type="button" data-i="1" data-l="Audio">Audio</button>
+<button class="cell" type="button" data-i="2" data-l="Carga">Carga</button>
+<button class="cell" type="button" data-i="3" data-l="Hogar">Hogar</button>
+<button class="cell" type="button" data-i="4" data-l="Gaming">Gaming</button>
+<button class="cell" type="button" data-i="5" data-l="Coche">Coche</button>
+</div></div>
+</section>
+
+<!-- ####### BANDA ####### -->
+<div class="band" aria-hidden="true"><div class="track"><span>Audio</span><span>Carga</span><span>Hogar</span><span>Gaming</span><span>Coche</span><span>Audio</span><span>Carga</span><span>Hogar</span><span>Gaming</span><span>Coche</span></div></div>
+
+<!-- ####### PRODUCTOS ####### -->
+<section class="top" id="top"><div class="wrap h"><h2 class="disp">Nuestra<br>selección</h2><a class="btn g mag" href="#" id="vt">Ver todo el catálogo</a></div>
+<p class="cnt wrap" id="cnt" aria-live="polite"></p>
+<div class="rail" id="rail"></div>
+<p class="nt wrap">Precios con IVA incluido. Los gastos de envío se muestran antes de pagar. Las imágenes son ilustrativas hasta que se publiquen las fotos reales del producto.</p></section>
+
+<!-- ####### GANCHOS ####### -->
+<section class="msg"><div class="wrap"><p>Accesorios bien elegidos, con las cosas claras: <b>envío con seguimiento</b>, pago seguro y <b>soporte en español</b> si algo falla.</p>
+<svg viewBox="0 0 160 60" aria-hidden="true"><path d="M6 44C28 6 40 58 68 26S112 52 154 14"/></svg>
+<ol class="hk"><li><b>Envío con seguimiento</b> en todos los pedidos</li><li>Soporte <b>en español</b></li><li><b>14 días</b> para desistir de tu compra</li><li><b>3 años</b> de garantía legal</li><li>Pago <b>seguro</b> y cifrado</li><li>Condiciones <b>claras</b>, sin letra pequeña</li></ol>
+<a class="btn mag" href="#info">Ver cómo funciona</a></div></section>
+
+<!-- ####### CÓMO FUNCIONA ####### -->
+<section class="rows" id="info"><div class="wrap">
+<div class="pasos"><div class="pa"><i>01</i><h3 class="disp">Eliges</h3><span>Filtra por categoría y elige lo que necesitas.</span></div><div class="pa"><i>02</i><h3 class="disp">Pagas seguro</h3><span>Pago cifrado con el método que prefieras.</span></div><div class="pa"><i>03</i><h3 class="disp">Lo recibes</h3><span>Con número de seguimiento desde que sale.</span></div></div>
+<div class="row"><h3 class="disp">Envío</h3><span>Todos los pedidos salen con número de seguimiento. Plazo estimado: [CONFIRMAR CON EL PEDIDO DE PRUEBA: de X a Y días laborables] desde que confirmas el pedido, siempre dentro del máximo legal de 30 días. El precio final incluye IVA y, si procede, aduanas: no pagas nada extra al recibirlo. Enviamos a España peninsular y Baleares.</span></div>
+<div class="row"><h3 class="disp">Pago</h3><div>Pago cifrado con los métodos de abajo. [CONFIRMAR MÉTODOS ACTIVOS EN LA PASARELA]<ul class="pay" aria-label="Métodos de pago"></ul></div></div>
+<div class="row"><h3 class="disp">Garantía</h3><span>14 días naturales para desistir de la compra sin dar explicaciones y 3 años de garantía legal en productos nuevos. Si algo falla, nos escribes a nosotros. Si tu pedido se pierde o llega dañado, lo reponemos o te devolvemos el dinero.</span></div>
+<div class="row"><h3 class="disp">Soporte</h3><span>Atención en español por correo en [CORREO DE SOPORTE], de lunes a viernes. Respondemos en [CONFIRMAR: 1–2] días laborables. Si algo falla, nos escribes a nosotros: no tienes que reclamar al fabricante.</span></div>
+</div></section>
+</main>
+
+<!-- ####### NEWSLETTER ####### -->
+<section class="nl" id="news"><div class="wrap">
+<h2 class="disp">Siempre un paso por delante.</h2>
+<form id="f"><label for="em" class="sr">Correo electrónico</label><input id="em" type="email" required placeholder="tu@correo.com"><label class="cons"><input type="checkbox" id="nlc" required> Acepto recibir novedades y ofertas por correo y he leído la <a href="#privacidad">política de privacidad</a>.</label><button class="btn mag" type="submit">Avisarme de novedades y ofertas</button></form>
+<p class="nt" style="margin-top:-24px">Responsable: [RELLENAR: titular]. Finalidad: enviarte novedades y ofertas. Base legal: tu consentimiento. Puedes darte de baja en cada correo y ejercer tus derechos en el correo de contacto. Más información en la <a href="#privacidad">política de privacidad</a>.</p>
+</div></section>
+
+<!-- ####### PIE ####### -->
+<footer><div class="wrap">
+<ul class="pay" aria-label="Métodos de pago"></ul>
+<details class="lg"><summary>Desistimiento y devoluciones</summary><p>Tienes 14 días naturales desde que recibes el pedido para desistir, sin dar explicaciones. Te devolvemos todo lo pagado, incluido el envío estándar, en un máximo de 14 días naturales desde que nos informas, usando el mismo medio de pago. Los costes directos de devolver el producto corren a cargo del cliente; si llega defectuoso o no es el que pediste, la devolución es gratis para ti. Consulta el <a href="#devoluciones">procedimiento y el formulario modelo</a> o usa el botón "Desistir del contrato aquí".</p></details>
+<details class="lg"><summary>Garantía legal</summary><p>Los productos nuevos tienen 3 años de garantía legal desde la entrega. Si algo no es conforme, nos escribes a nosotros y lo resolvemos: reparación, sustitución, rebaja del precio o devolución, según corresponda. Detalles en los <a href="#terminos">términos de compra</a>.</p></details>
+<details class="lg"><summary>Precios e IVA</summary><p>Todos los precios incluyen IVA. Los gastos de envío se muestran antes de pagar. El total final es el que ves antes de confirmar el pedido.</p></details>
+<details class="lg"><summary>Protección de datos</summary><p>Tratamos tus datos para gestionar tu pedido, atenderte y cumplir obligaciones legales. Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad, y reclamar ante la AEPD. Más en la <a href="#privacidad">política de privacidad</a>.</p></details>
+<details class="lg"><summary>Quién vende</summary><p>[RELLENAR: nombre o razón social] · NIF [RELLENAR] · [RELLENAR: domicilio completo] · Correo: [RELLENAR]. Datos completos en el <a href="#aviso-legal">aviso legal</a>.</p></details>
+<div class="fl"><span>© TECUNELO</span><span><a href="#aviso-legal">Aviso legal</a><a href="#privacidad">Privacidad</a><a href="#cookies">Cookies</a><a href="#terminos">Términos de compra</a><a href="#devoluciones">Devoluciones</a><button type="button" class="lk" id="ckr">Configurar cookies</button><button type="button" class="lk dsb" id="dso">Desistir del contrato aquí</button></span></div>
+</div></footer>
+
+<!-- ####### PÁGINAS LEGALES (dentro de este mismo documento; se abren desde el pie con #aviso-legal, #privacidad, #cookies, #terminos, #devoluciones) ####### -->
+<dialog class="lgl pg" id="lg-producto" aria-label="Ficha de producto"><main id="pd"></main></dialog>
+<dialog class="lgl" id="lg-aviso-legal" aria-label="Aviso legal"><main><button type="button" class="vol" data-x>← Volver a la tienda</button>
+<h1>Aviso legal</h1>
+<p class="bor">BORRADOR para revisar con tu asesor o abogado antes de publicar. Sustituye cada <mark>[RELLENAR…]</mark> con tus datos reales. Última actualización: <mark>[RELLENAR: fecha]</mark>.</p>
+
+<h2>1. Titular del sitio web</h2>
+<p>En cumplimiento del artículo 10 de la Ley 34/2002, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de los siguientes datos:</p>
+<ul>
+<li>Titular: <mark>[RELLENAR: nombre y apellidos o razón social]</mark></li>
+<li>NIF/CIF: <mark>[RELLENAR: NIF]</mark></li>
+<li>Domicilio: <mark>[RELLENAR: calle, número, código postal, localidad, provincia]</mark></li>
+<li>Correo electrónico de contacto: <mark>[RELLENAR: correo]</mark></li>
+<li>Teléfono (opcional): <mark>[RELLENAR: teléfono]</mark></li>
+<li>Datos registrales (solo sociedades): <mark>[RELLENAR: Registro Mercantil de ..., tomo, folio, hoja]</mark></li>
+<li>Nombre comercial y dominio: TECUNELO · <mark>[RELLENAR: dominio]</mark></li>
+</ul>
+<h2>2. Objeto</h2>
+<p>Este sitio web es una tienda online de accesorios de tecnología dirigida a consumidores. El acceso y uso del sitio implica la aceptación de este aviso legal.</p>
+<h2>3. Propiedad intelectual e industrial</h2>
+<p>Los textos, el diseño, el código, los logotipos y las imágenes propias del sitio pertenecen al titular o se usan con licencia. Las marcas de terceros que puedan aparecer pertenecen a sus titulares. Queda prohibida su reproducción sin autorización.</p>
+<h2>4. Responsabilidad</h2>
+<p>El titular procura que la información sea exacta y está actualizada, pero no garantiza la ausencia de errores ni la disponibilidad ininterrumpida del servicio. Esto no limita los derechos que la ley reconoce a los consumidores.</p>
+<h2>5. Enlaces</h2>
+<p>El sitio puede enlazar a páginas de terceros. El titular no responde de sus contenidos ni de sus políticas.</p>
+<h2>6. Atención al cliente y reclamaciones</h2>
+<p>Puedes contactarnos en <mark>[RELLENAR: correo]</mark>. Disponemos de hojas de quejas y reclamaciones conforme a la normativa de consumo de la Junta de Andalucía: <mark>[RELLENAR: indicar cómo se facilitan; en Andalucía las empresas deben estar adheridas al sistema de hojas electrónicas]</mark>. Adhesión a un sistema de arbitraje de consumo: <mark>[RELLENAR: sí/no; si sí, indicar cuál]</mark>.</p>
+<h2>7. Legislación y jurisdicción</h2>
+<p>Este aviso se rige por la legislación española. Si eres consumidor, podrás acudir a los juzgados y tribunales de tu domicilio, conforme a la normativa de consumo.</p></main></dialog>
+<dialog class="lgl" id="lg-privacidad" aria-label="Política de privacidad"><main><button type="button" class="vol" data-x>← Volver a la tienda</button>
+<h1>Política de privacidad</h1>
+<p class="bor">BORRADOR para revisar con tu asesor o abogado antes de publicar. Sustituye cada <mark>[RELLENAR…]</mark> con tus datos reales. Última actualización: <mark>[RELLENAR: fecha]</mark>.</p>
+
+<h2>1. Responsable del tratamiento</h2>
+<p><mark>[RELLENAR: nombre o razón social]</mark> · NIF <mark>[RELLENAR: NIF]</mark> · <mark>[RELLENAR: domicilio]</mark> · Correo: <mark>[RELLENAR: correo]</mark>. No se ha designado delegado de protección de datos <mark>[RELLENAR: confirmar con tu asesor si no es obligatorio en tu caso]</mark>.</p>
+<h2>2. Qué datos tratamos, para qué y con qué base legal</h2>
+<table><tr><th>Finalidad</th><th>Datos</th><th>Base legal</th></tr>
+<tr><td>Gestionar tu pedido: cobro, preparación, envío, facturación y garantías</td><td>Identificación, contacto, dirección de entrega, datos del pedido (los datos de tarjeta los gestiona la pasarela de pago)</td><td>Ejecución del contrato (art. 6.1.b RGPD)</td></tr>
+<tr><td>Cumplir obligaciones fiscales y contables</td><td>Datos de facturación</td><td>Obligación legal (art. 6.1.c)</td></tr>
+<tr><td>Atender consultas, incidencias, devoluciones y reclamaciones</td><td>Contacto y contenido de tu mensaje</td><td>Ejecución del contrato / interés legítimo (art. 6.1.b y f)</td></tr>
+<tr><td>Enviarte novedades y ofertas por correo</td><td>Correo electrónico</td><td>Tu consentimiento (art. 6.1.a); puedes retirarlo en cualquier momento</td></tr>
+<tr><td>Analítica y marketing mediante cookies</td><td>Datos de navegación</td><td>Tu consentimiento (ver política de cookies)</td></tr>
+<tr><td>Prevención del fraude en pagos</td><td>Datos del pedido y del pago</td><td>Interés legítimo (art. 6.1.f)</td></tr></table>
+<h2>3. Destinatarios</h2>
+<p>Para prestar el servicio compartimos los datos estrictamente necesarios con: la plataforma de la tienda (Shopify), la pasarela de pago (<mark>[RELLENAR: Shopify Payments / PayPal …]</mark>), el transportista, el proveedor que prepara y envía el pedido (<mark>[RELLENAR: BigBuy / otro]</mark>), el servicio de correo electrónico (<mark>[RELLENAR: herramienta]</mark>), y la asesoría fiscal. También con las Administraciones públicas cuando la ley lo exija.</p>
+<h2>4. Transferencias internacionales</h2>
+<p>Algunos proveedores pueden tratar datos fuera del Espacio Económico Europeo. Si el producto lo envía un proveedor de fuera del EEE, solo le facilitamos los datos imprescindibles para la entrega (nombre, dirección y teléfono de contacto). En ese caso se hace con garantías adecuadas (por ejemplo, cláusulas contractuales tipo o decisión de adecuación). <mark>[RELLENAR: Si usas un proveedor fuera de la UE, como un almacén en China, indícalo aquí y confirma las garantías con tu asesor]</mark>.</p>
+<h2>5. Plazo de conservación</h2>
+<p>Conservamos los datos mientras dure la relación comercial y, después, durante los plazos legales de prescripción de responsabilidades y de obligaciones fiscales y mercantiles. Los datos de newsletter, hasta que retires el consentimiento. <mark>[RELLENAR: ajustar los plazos con tu asesor]</mark></p>
+<h2>6. Tus derechos</h2>
+<p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a <mark>[RELLENAR: correo]</mark>, indicando el derecho y acompañando un documento que acredite tu identidad. Respondemos en el plazo máximo de un mes. Si consideras que no hemos tratado tus datos correctamente, puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">www.aepd.es</a>).</p>
+<h2>7. Menores</h2>
+<p>Este sitio no está dirigido a menores de 14 años. Si eres menor, necesitas la autorización de tus progenitores o tutores para facilitarnos datos.</p>
+<h2>8. Seguridad</h2>
+<p>Aplicamos medidas técnicas y organizativas razonables para proteger los datos. La conexión del sitio debe ir cifrada (HTTPS).</p></main></dialog>
+<dialog class="lgl" id="lg-cookies" aria-label="Política de cookies"><main><button type="button" class="vol" data-x>← Volver a la tienda</button>
+<h1>Política de cookies</h1>
+<p class="bor">BORRADOR para revisar con tu asesor o abogado antes de publicar. Sustituye cada <mark>[RELLENAR…]</mark> con tus datos reales. Última actualización: <mark>[RELLENAR: fecha]</mark>.</p>
+
+<h2>1. Qué son las cookies</h2>
+<p>Son pequeños archivos o tecnologías similares que el sitio guarda en tu dispositivo. Esta política cumple con el artículo 22.2 de la LSSI-CE y con la guía de la Agencia Española de Protección de Datos.</p>
+<h2>2. Qué cookies usamos</h2>
+<table><tr><th>Tipo</th><th>Para qué</th><th>¿Necesita tu consentimiento?</th></tr>
+<tr><td>Técnicas o necesarias</td><td>Funcionamiento de la tienda: carrito, sesión, seguridad, preferencia de cookies</td><td>No</td></tr>
+<tr><td>Analítica</td><td>Medir visitas y mejorar la web</td><td>Sí</td></tr>
+<tr><td>Marketing</td><td>Mostrar y medir anuncios</td><td>Sí</td></tr></table>
+<p>Listado detallado de cookies (nombre, proveedor, duración): <mark>[RELLENAR: pegar aquí el listado que genere tu herramienta de cookies]</mark></p>
+<h2>3. Cómo gestionar tu consentimiento</h2>
+<p>La primera vez que entras, puedes aceptar todas, rechazar todas o configurarlas, con la misma facilidad. No instalamos cookies de analítica ni de marketing antes de que las aceptes. Puedes cambiar tu elección en cualquier momento con el enlace "Configurar cookies" del pie de página. También puedes borrarlas desde los ajustes de tu navegador.</p>
+<h2>4. Terceros</h2>
+<p>Proveedores que pueden instalar cookies si las aceptas: <mark>[RELLENAR: Shopify, Google Analytics, Meta…, solo los que realmente uses]</mark>.</p></main></dialog>
+<dialog class="lgl" id="lg-terminos" aria-label="Términos de compra"><main><button type="button" class="vol" data-x>← Volver a la tienda</button>
+<h1>Términos de compra</h1>
+<p class="bor">BORRADOR para revisar con tu asesor o abogado antes de publicar. Sustituye cada <mark>[RELLENAR…]</mark> con tus datos reales. Última actualización: <mark>[RELLENAR: fecha]</mark>.</p>
+
+<h2>1. Quién vende</h2>
+<p><mark>[RELLENAR: nombre o razón social]</mark> · NIF <mark>[RELLENAR: NIF]</mark> · <mark>[RELLENAR: domicilio]</mark> · Correo: <mark>[RELLENAR: correo]</mark> (datos completos en el <a href="#aviso-legal">aviso legal</a>).</p>
+<h2>2. Contratación</h2>
+<p>Estas condiciones regulan las compras a distancia hechas en este sitio por consumidores. El contrato se celebra en español. Los pasos son: elegir producto, añadir al carrito, introducir los datos de entrega y pago, revisar el total (con IVA y envío) y confirmar el pedido. Recibirás por correo la confirmación del pedido. Antes de pagar puedes corregir los datos.</p>
+<h2>3. Precios, IVA y gastos de envío</h2>
+<p>Los precios incluyen IVA. Los gastos de envío se muestran antes de confirmar el pedido. Ámbito de venta: España peninsular y Baleares. De momento no enviamos a Canarias, Ceuta ni Melilla. El precio que ves incluye IVA y, si procede, los derechos de aduana: no tendrás que pagar nada más al recibir el pedido.</p>
+<h2>4. Pago</h2>
+<p>Métodos de pago aceptados: <mark>[RELLENAR: los realmente activos en tu pasarela]</mark>. El pago se procesa de forma cifrada. No almacenamos los datos completos de tu tarjeta.</p>
+<h2>5. Entrega</h2>
+<p>Plazo estimado: <mark>[RELLENAR: de X a Y días laborables]</mark> desde la confirmación del pedido. En todo caso entregaremos como máximo en 30 días naturales, salvo que acordemos otra fecha contigo. Todos los pedidos incluyen número de seguimiento y se entregan en la dirección que indicas, así que escríbela completa y correcta. Si no estás, el transportista seguirá sus normas de reparto (nuevo intento o punto de recogida).</p>
+<p>Si no entregamos a tiempo, puedes concedernos un plazo adicional adecuado y, si tampoco llegamos, resolver el contrato: te devolvemos lo pagado sin demora indebida y como máximo en 14 días naturales. Si tu pedido se pierde o llega dañado, escríbenos con tu número de pedido (y fotos si hay daños) y lo reponemos o te devolvemos el dinero: hasta que lo recibes tú, el riesgo es nuestro. Si un producto deja de estar disponible después de tu pedido, te avisamos y, a tu elección, esperas o te reembolsamos sin demora y como máximo en 14 días naturales.</p>
+<p>Si el pedido vuelve a nosotros porque la dirección era incorrecta o no lo recogiste, lo reenviamos con los nuevos gastos de envío a tu cargo o, si prefieres cancelar, te reembolsamos lo pagado descontando los gastos de envío de ida y vuelta que hayamos soportado. <mark>[RELLENAR: confirmar esta cláusula con tu asesor]</mark></p>
+<h2>6. Derecho de desistimiento</h2>
+<p>Tienes derecho a desistir del contrato en 14 días naturales, sin dar ningún motivo, contados desde que tú (o un tercero que designes, distinto del transportista) recibes el producto. Con varios productos en un pedido entregados por separado, el plazo cuenta desde la recepción del último.</p>
+<ul>
+<li>Cómo ejercerlo: con el botón "Desistir del contrato aquí" de la web, por correo a <mark>[RELLENAR: correo]</mark> o con el formulario modelo de la <a href="#devoluciones">página de devoluciones</a>.</li>
+<li>Reembolso: te devolvemos todo lo pagado, incluidos los gastos de envío estándar, en un máximo de 14 días naturales desde que nos comunicas tu decisión, con el mismo medio de pago. Podemos esperar a recibir el producto o a que acredites su envío.</li>
+<li>Devolución del producto: debes enviarlo en un máximo de 14 días naturales desde que nos comunicas el desistimiento. Costes directos de la devolución: los asume el cliente (te lo indicamos aquí y en la página de devoluciones antes de que pagues). Si el producto es defectuoso o no es el que pediste, no es desistimiento sino garantía y no pagas nada. Escríbenos antes de enviarlo para darte la dirección de devolución en España o en la UE, y no lo envíes a la dirección del remitente del paquete original, que puede estar fuera de la UE. Usa un envío con seguimiento y conserva el justificante.</li>
+<li>Respondes de la disminución de valor del producto por una manipulación distinta de la necesaria para comprobar su naturaleza y funcionamiento. Devuélvelo con todos sus accesorios y, si puedes, en su embalaje original.</li>
+<li>Excepciones legales: por ejemplo, productos personalizados o productos precintados que no puedan devolverse por razones de protección de la salud o de higiene una vez abiertos. <mark>[RELLENAR: indica solo las que apliquen a tu catálogo]</mark></li>
+</ul>
+<h2>7. Garantía legal</h2>
+<p>Los productos nuevos tienen una garantía legal de 3 años desde la entrega. Si el producto no es conforme con el contrato, puedes exigir su reparación o sustitución, y, si no son posibles o no se hacen en plazo razonable, la rebaja del precio o la resolución del contrato. La garantía te la debe la tienda, no el fabricante ni el proveedor, y las reparaciones o sustituciones son gratuitas. Si la falta de conformidad se manifiesta en los dos primeros años desde la entrega, se presume que ya existía cuando recibiste el producto. Para reclamar, escribe a <mark>[RELLENAR: correo]</mark> con tu número de pedido y, si puedes, fotos del problema. El desgaste normal, los golpes, el mal uso o las manipulaciones por tu parte no son faltas de conformidad.</p>
+<h2>8. Seguridad del producto</h2>
+<p>La ficha de cada producto muestra la información del fabricante o del responsable en la Unión Europea y las advertencias de uso, conforme al Reglamento (UE) 2023/988 de seguridad general de los productos. <mark>[RELLENAR: confirmar que cada ficha incluya estos datos]</mark></p>
+<h2>9. Atención al cliente, quejas y reclamaciones</h2>
+<p>Atención en español por correo en <mark>[RELLENAR: correo]</mark>, <mark>[RELLENAR: horario]</mark>. Te respondemos en <mark>[RELLENAR: 1–2 días laborables]</mark> y te damos constancia de tu queja o reclamación. Hojas de quejas y reclamaciones disponibles según la normativa de la Junta de Andalucía (<mark>[RELLENAR: cómo se facilitan]</mark>). Puedes también acudir a las oficinas de consumo y a la Junta Arbitral de Consumo correspondiente. La plataforma europea de resolución de litigios en línea (ODR) dejó de funcionar en julio de 2025, por eso no se enlaza.</p>
+<h2>10. Propiedad intelectual</h2>
+<p>Los contenidos de la web son propiedad del titular o se usan con licencia. Está prohibida su reproducción sin permiso.</p>
+<h2>11. Ley aplicable y jurisdicción</h2>
+<p>Se aplica la legislación española, en particular el Texto Refundido de la Ley General para la Defensa de los Consumidores y Usuarios (Real Decreto Legislativo 1/2007) y la LSSI-CE. Como consumidor, podrás acudir a los tribunales de tu domicilio.</p>
+<h2>12. Cambios</h2>
+<p>Las condiciones aplicables a tu compra son las vigentes el día en que hiciste el pedido.</p></main></dialog>
+<dialog class="lgl" id="lg-devoluciones" aria-label="Devoluciones y desistimiento"><main><button type="button" class="vol" data-x>← Volver a la tienda</button>
+<h1>Devoluciones y desistimiento</h1>
+<p class="bor">BORRADOR para revisar con tu asesor o abogado antes de publicar. Sustituye cada <mark>[RELLENAR…]</mark> con tus datos reales. Última actualización: <mark>[RELLENAR: fecha]</mark>.</p>
+
+<h2>Tienes 14 días naturales para desistir</h2>
+<p>Desde que recibes tu pedido, puedes desistir de la compra sin dar explicaciones. Hay tres formas de hacerlo:</p>
+<ol><li>Con el botón <b>"Desistir del contrato aquí"</b> del pie de la tienda.</li><li>Escribiendo a <mark>[RELLENAR: correo]</mark> con tu número de pedido.</li><li>Rellenando el formulario modelo de abajo y enviándolo al mismo correo.</li></ol>
+<h2>Qué pasa después</h2>
+<ul><li>Te enviamos un acuse de recibo por correo.</li><li>Te indicamos cómo devolver el producto: <mark>[RELLENAR: dirección de devoluciones en España o la UE, o instrucciones del proveedor]</mark>. No lo envíes a la dirección del remitente del paquete original (puede estar fuera de la UE): usa solo la que te indiquemos.</li><li>Te reembolsamos en un máximo de 14 días naturales desde que nos informas, con el mismo medio de pago y con los gastos de envío estándar incluidos.</li><li>Costes directos de devolución: los asume el cliente. Elige un envío con seguimiento y guarda el justificante. Si el producto es defectuoso o no es el que pediste, la devolución es gratis para ti.</li></ul>
+<h2>Producto defectuoso o que no es lo que pediste</h2>
+<p>Eso no es desistimiento, es garantía legal (3 años). Escríbenos y lo resolvemos sin coste para ti. Consulta los <a href="#terminos">términos de compra</a>.</p>
+<h2>Formulario modelo de desistimiento</h2>
+<p>(Solo si deseas desistir del contrato, rellena y envía este formulario.)</p>
+<p>A la atención de <mark>[RELLENAR: nombre del titular, domicilio y correo]</mark>:<br>Por la presente comunico que desisto de mi contrato de venta del siguiente bien: ______________.<br>Pedido el / recibido el: ______________.<br>Nombre del consumidor: ______________.<br>Domicilio del consumidor: ______________.<br>Firma del consumidor (solo si se presenta en papel): ______________.<br>Fecha: ______________.</p></main></dialog>
+<!-- ####### BANNER DE COOKIES (aceptar, rechazar y configurar al mismo nivel) ####### -->
+<div id="ck" role="dialog" aria-labelledby="ckt" hidden>
+<h2 id="ckt">Tu privacidad</h2>
+<p>Usamos cookies técnicas necesarias para que la tienda funcione. Las de analítica y marketing solo se activan si las aceptas. Puedes aceptar, rechazar o configurar. Más información en la <a href="#cookies">política de cookies</a>.</p>
+<div class="ckc" hidden>
+<label><input type="checkbox" checked disabled> Necesarias (siempre activas)</label>
+<label><input type="checkbox" id="ck-an"> Analítica</label>
+<label><input type="checkbox" id="ck-mk"> Marketing</label>
+</div>
+<div class="cka"><button type="button" class="btn g" data-a="no">Rechazar todo</button><button type="button" class="btn g" data-a="cfg">Configurar</button><button type="button" class="btn g" data-a="all">Aceptar todo</button></div>
+</div>
+
+<!-- ####### BOTÓN DE DESISTIMIENTO (obligatorio desde el 19/06/2026) ####### -->
+<dialog id="dsm" aria-labelledby="dst">
+<form method="dialog" id="dsf">
+<h2 id="dst">Desistir del contrato</h2>
+<p>Rellena estos datos y confirma. Te enviaremos un acuse de recibo por correo.</p>
+<label>Nombre y apellidos<input name="n" required autocomplete="name"></label>
+<label>Número de pedido<input name="p" required></label>
+<label>Correo electrónico del pedido<input name="e" type="email" required autocomplete="email"></label>
+<label>Productos que devuelves (opcional)<input name="x"></label>
+<div class="cka"><button type="button" class="btn g" id="dsc">Cancelar</button><button type="submit" class="btn" id="dsk">Confirmar desistimiento</button></div>
+<p class="nt" id="dsr" aria-live="polite"></p>
+</form>
+</dialog>
+<!-- ####### ③ NAVEGACIÓN DE ESCENAS + CONTROL DE MARCAS (de prueba) ####### -->
+<nav id="sn" aria-label="Escenas 3D"><button type="button" title="Portada" aria-label="Ir a: Portada"></button><button type="button" title="Catálogo" aria-label="Ir a: Catálogo"></button><button type="button" title="Garantías" aria-label="Ir a: Garantías"></button><button type="button" title="Cómo funciona" aria-label="Ir a: Cómo funciona"></button><button type="button" title="Novedades" aria-label="Ir a: Novedades"></button></nav>
+<!-- ####### ACCESIBILIDAD ####### -->
+<div class="sr" id="live" aria-live="polite"></div>
+
+<!-- ####### SCRIPTS ####### -->
+{% endraw %}
+{% schema %}
+{"name": "TECUNELO Home", "presets": [{"name": "TECUNELO Home"}]}
+{% endschema %}
